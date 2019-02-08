@@ -11,6 +11,11 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es5",
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ],
     "typeRoots": [
       "node_modules/@types"
     ],
